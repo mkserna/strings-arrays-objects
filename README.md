@@ -50,7 +50,7 @@ Crear un script que genere nombres de usuario y email a partir de un nombre y ap
         - Nombre de Usuario (username): johndoe
         - Correo Electrónico: johndoe@myDomain.com
 
-5. Almacena el nombre de usuario generado en un objeto global llamado 'users' con el username
+6. Almacena el nombre de usuario generado en un objeto global llamado 'users' con el username
     como clave y el correo electrónico como valor. Por ejemplo:
         - Nombre de Usuario (username): johndoe
         - Correo Electrónico: johndoe@myDomain.com
@@ -58,7 +58,7 @@ Crear un script que genere nombres de usuario y email a partir de un nombre y ap
             johndoe: 'johndoe@myDomain.com'
         }
 
-5. Verificación de Unicidad:
+7. Verificación de Unicidad:
     - Verifica si el nombre de usuario generado ya existe en el objeto 'users'. Utiliza Object.keys() para obtener un array con las claves del objeto. Utiliza includes() para verificar si el nombre de usuario ya existe.
     - Si el nombre de usuario ya existe, agrega un número al final del nombre de usuario y actualiza el correo electrónico correspondiente. Por ejemplo, si 'johndoe' ya existe, el nuevo nombre de usuario será 'johndoe1' y el correo electrónico será 'johndoe1@myDomain.com'.
 
